@@ -14,4 +14,5 @@ survivors = train.groupby('VIP')['Transported'].sum()
 plt.pie(survivors, labels=survivors.index, autopct='%1.1f%%')
 plt.title('Survivors by Planet')
 plt.show()
+print("cofriemd ")
 
